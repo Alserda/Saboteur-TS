@@ -1,0 +1,40 @@
+{
+  "name": "saboteur-typescript",
+  "version": "1.0.0",
+  "description": "TypeScript testing",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config ./webpack/webpack.config.dev.js --progress --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Alserda/Saboteur-TS.git"
+  },
+  "author": "Peter Alserda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alserda/Saboteur-TS/issues"
+  },
+  "homepage": "https://github.com/Alserda/Saboteur-TS#readme",
+  "dependencies": {
+    "history": "^4.7.2",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2"
+  },
+  "devDependencies": {
+    "@types/react": "^16.0.12",
+    "@types/react-dom": "^16.0.1",
+    "@types/react-hot-loader": "^3.0.4",
+    "@types/react-router-dom": "^4.0.8",
+    "html-webpack-plugin": "^2.30.1",
+    "react-hot-loader": "3.0.0-beta.6",
+    "ts-loader": "^3.0.2",
+    "tslint": "^5.7.0",
+    "tslint-react": "^3.2.0",
+    "typescript": "^2.5.3",
+    "webpack": "^3.7.1",
+    "webpack-dev-server": "^2.9.2"
+  }
+}
