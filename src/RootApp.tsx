@@ -1,3 +1,6 @@
 import * as React from 'react';
+// import Router from 'components/Router';
 
-export default () => <div>RootApp</div>;
+const RootApp: React.StatelessComponent = () => <div>hofeedddi</div>;
+
+export default RootApp;
