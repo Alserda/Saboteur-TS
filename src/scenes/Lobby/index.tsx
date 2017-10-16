@@ -1,5 +1,18 @@
 import * as React from 'react';
+import { history } from 'services/router';
 
-const LobbyScreen: React.StatelessComponent = () => <div>LobbyScreen</div>;
+class Lobby extends React.Component<any, any> {
+  public componentDidMount(): void {
+    setTimeout(() => {
+      history.push('/room');
+    }, 2000);
+  }
 
-export default LobbyScreen;
+  public render() {
+    return (
+      <div>Lobby screen</div>
+    )
+  }
+}
+
+export default Lobby;

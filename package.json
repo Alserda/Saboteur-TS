@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "TypeScript testing",
   "main": "index.js",
+  "author": "Peter Alserda",
+  "license": "ISC",
   "scripts": {
     "start": "webpack-dev-server --config ./webpack/webpack.config.dev.js --progress --colors"
   },
@@ -10,12 +12,7 @@
     "type": "git",
     "url": "git+ssh://git@github.com/Alserda/Saboteur-TS.git"
   },
-  "author": "Peter Alserda",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Alserda/Saboteur-TS/issues"
-  },
-  "homepage": "https://github.com/Alserda/Saboteur-TS#readme",
+  "homepage": "https://github.com/Alserda/Saboteur-TS#readme",  
   "dependencies": {
     "history": "^4.7.2",
     "react": "^16.0.0",
